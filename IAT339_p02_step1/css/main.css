@@ -13,27 +13,36 @@
 }
 
 h1{
+  font-size: 2rem;
   color: white;
   margin: 1rem 0;
   font-family: 'Varela Round', sans-serif;
 }
 
 h2{
+  font-size: 1.5rem;
   text-align: center;
-  border-bottom: 1px solid #ACD3EC;
+  border-bottom: 0.1rem solid #ACD3EC;
   margin: 1rem 0;
 }
 
 h3{
+  font-size: 1rem;
   margin: 1rem 0;
+  border-bottom: 0.05rem solid #ACD3EC;
+}
+
+h4{
+  font-size: 0.8rem;
+  margin: 0.2rem 0;
 }
 
 section{
   margin: 2rem 0;
 }
 section code {
+  display: block;
   background-color: #EEE;
-  margin-top: 1rem;
   padding: 0.5rem;
 }
 
@@ -76,15 +85,15 @@ section code {
 }
 
 .nav_main ul {
-  list-style-type: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 .nav_main ul li{
+  list-style-type: none;
   background-color: #ACD3EC;
   padding: 1rem;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   -webkit-transition: background-color 0.4s ease-out;
   transition: background-color 0.4s ease-out;
 }
@@ -110,30 +119,63 @@ section code {
 
 /* --------------------- INTERACTIVE ELEMENTS ------------------- */
 
+#nav_main_example ul li{
+  list-style-type: none;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  -webkit-transition: background-color 0.4s ease-out;
+  transition: background-color 0.4s ease-out;
+}
+#nav_main_example ul li a{
+  border-radius: 0.2rem;
+  padding: 1rem;
+  background-color: #ACD3EC;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: white;
+}
+#nav_main_example ul li a:hover{
+  /* orange  */
+  background-color: #86B8D9;
+}
+#nav_main_example ul li a:focus{
+  /* orange  */
+  background-color: #3B6CA0;
+}
+
 .link_in_text{
   text-decoration: none;
-  color: black;
+  color: #86B8D9;
   font-weight: bold;
 }
 .link_in_text:hover{
   /* light blue */
-  color: #ACD6EE;
+  color: #F1AF23;
 }
 
+/* ----------------------- Submit Button ---------------------------- */
 .button_submit{
   display: inline-block;
   padding: 1em 1em;
   color: white;
-  background-color: #313165;
+  background-color: #2F4E7C;
   text-decoration: none;
   border-radius: 0.25rem;
   -webkit-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
 }
 
-.button_submit:hover, .button-nav:focus {
-  background-color: #FB9823;
+.button_submit:hover{
+  background-color: #FFECC6;
+  color: #072F58;
 }
+.button-nav:focus{
+  background-color: #FFE5AD;
+  color: #072F58;
+}
+
+/* ------------------------------ text field -------------------------------*/
 
 #name_f{
   background-color: #E5E5E5;
@@ -142,33 +184,41 @@ section code {
   color: white;
 }
 /*
-  TEXT ELEMENTS -------------------
+  -------------------------- TEXT ELEMENTS -------------------
 */
+#headings h1, h2, h3, h4{
+  color: black;
+}
 #headings h1{
   font-size: 2rem;
 }
 #headings h2{
+  text-align: left;
   font-size: 1.5rem;
   border: none;
 }
 #headings h3{
   font-size: 1rem;
+  border: none;
 }
-
+#headings h4{
+  font-size: 0.8rem;
+}
 /*
-  COMBINED ELEMENTS -------------------
+  ---------------------- COMBINED ELEMENTS -------------------
 */
-.nav_sample{
-  background-color: #313165;
-  padding: 0.5rem 0;
-  line-height: 2rem;
-}
+
+/* ---------------------- Nav Sample ----------------------*/
+
 .nav_sample ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  padding-top: 1rem;
   justify-content: flex-end;
+  background-color: #ACD3EC;
+}
+.nav_sample ul li{
+  border-radius: 0.2rem;
 }
 .nav_sample ul li a{
   padding: 0 0.8rem;
@@ -176,12 +226,12 @@ section code {
   color: white;
 }
 
-.nav_sample ul li a:hover{
+.nav_sample ul li:hover{
   /* light blue */
-  color: #ACD6EE;
+  background-color: #86B8D9;
 }
 
-
+/* ------------------- Products Display ---------------------- */
 .product_details{
   display: flex;
   justify-content: center;
@@ -205,7 +255,7 @@ section code {
   width: 30rem;
 }
 
-/*  ///////////////////// Color Palette /////////////////////// */
+/*  ------------------- Color Palette ------------------- */
 
 #color_blocks{
   padding: 2rem 2rem;
@@ -254,6 +304,58 @@ section code {
 #cb_10{
   background-color: #FFFFFF;
 }
+
+/*  ------------------- Grid Structure ------------------- */
+#frame{
+  display: flex;
+  flex-direction: column;
+  border: 0.1rem solid black;
+}
+
+#nav p{
+  text-align: right;
+  padding: 0.5rem 3rem;
+  color: white;
+  background-color: #ACD3EC;
+}
+
+.slogan{
+  text-align: center;
+  padding: 3rem 5rem;
+  background-color: #3B6CA0;
+  color: white;
+  font-size: 1.5rem;
+}
+#content p{
+  padding: 10rem 0;
+  text-align: center;
+  background-color: #F3F7FA;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer{
+  text-align: center;
+  padding: 2rem 5rem;
+  background-color: #3B6CA0;
+  color: white;
+  font-size: 0.8rem;
+}
+
+
+/* ------------------ Site Map ------------------------- */
+#site_map img{
+  display: block;
+  width: 95%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.1rem #3B6CA0 solid;
+}
+
+
+
 
 /* --------------------- Responsive view --------------------- */
 @media only screen and (max-width: 1920px) {
