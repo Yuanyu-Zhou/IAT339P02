@@ -1,0 +1,19 @@
+.courses_main{
+  display: flex;
+  flex-direction: column;
+}
+.header_title{
+  display: flex;
+  background-image: url("../imgs/header_title_placeholder.png");
+  height: 20rem;
+  background-position: center;
+  background-size: cover;
+}
+.header_title h2{
+  position: relative;
+  margin: auto;
+  top: 7rem;
+  font-size: 1.8rem;
+  z-index: 1;
+  color: white;
+}
