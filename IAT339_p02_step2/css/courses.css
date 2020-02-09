@@ -8,12 +8,26 @@
   height: 20rem;
   background-position: center;
   background-size: cover;
+  box-shadow: 0 0.1rem 1rem 0.1rem #888888;;
 }
 .header_title h2{
-  position: relative;
-  margin: auto;
-  top: 7rem;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 1.8rem;
-  z-index: 1;
   color: white;
+  z-index: auto;
+}
+
+.package_details{
+  display: flex;
+  flex-direction: column;
+}
+.package_course_details{
+  padding: 3rem 5rem;
+  display: flex;
+  flex-direction: row;
+}
+.course_descriptions{
+  margin-left: 3rem;
 }

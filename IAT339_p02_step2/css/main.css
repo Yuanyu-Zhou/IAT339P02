@@ -24,12 +24,13 @@ h2{
   font-size: 1.5rem;
   text-align: center;
   margin: 1rem 0;
+  z-index: -1;
 }
 
 h3{
   font-size: 1rem;
   margin: 1rem 0;
-  border-bottom: 0.05rem solid #ACD3EC;
+  /*border-bottom: 0.05rem solid #ACD3EC;*/
 }
 
 h4{
@@ -44,12 +45,6 @@ section code {
   display: block;
   background-color: #EEE;
   padding: 0.5rem;
-}
-
-.content{
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* --------------------- Nav Bar ------------------- */
@@ -78,6 +73,7 @@ section code {
 }
 
 .nav_main{
+  overflow: hidden;
   float: right;
   margin-right: 5%;
   clear: right;
@@ -99,11 +95,47 @@ section code {
 }
 
 .nav_main ul li a{
+  overflow: hidden;
   display: block;
   font-family: 'Varela Round', sans-serif;
   font-size: 1.3rem;
   text-decoration: none;
   color: white;
+}
+.nav_dropdown .nav_dropdown_button{
+  border: none;
+  outline: none;
+  background-color: #ACD3EC;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.3rem;
+  padding: 1rem 0.5rem;
+  color: white;
+  border-radius: 0.2rem;
+}
+.nav_dropdown:hover .nav_dropdown_button{
+  background-color: #86B8D9;
+}
+.nav_dropdown_content{
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: #86B8D9;
+  min-width: 10rem;
+  border-radius: 0.2rem;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+}
+.nav_dropdown_content a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 0.2rem 0.2rem;
+}
+.nav_dropdown_content a:hover{
+  background-color: #86B8D9;
+}
+.nav_dropdown:hover .nav_dropdown_content{
+  display: block;
 }
 
 .nav_main ul li:hover{
@@ -115,24 +147,49 @@ section code {
   background-color: #3B6CA0;
 }
 
+/* -------------------------- content ---------------------------*/
+.content{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* --------------------- Responsive view --------------------- */
+/* --------------------- w:1920 desktop--------------------- */
 @media only screen and (max-width: 1920px) {
   .content{
     width: 60%;
+  }
+  .package_course_details img{
+    max-height: 10rem;
+    width: auto;
+  }
+}
+
+/* --------------------- w:1200 desktop --------------------- */
+@media only screen and (max-width: 1200px) {
+  .content{
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
   }
+
+  .package_course_details{
+    padding: 2rem 2rem;
+  }
+  .package_course_details img{
+    max-height: 8rem;
+    width: auto;
+  }
 }
+
+/* --------------------- w:600 tablet--------------------- */
 @media only screen and (max-width: 600px) {
   .content{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 70%;
   }
 
   h1{
     font-size: 1.5em;
-
   }
   h2{
     font-size: 1.2em;
@@ -156,8 +213,27 @@ section code {
   #color_plate{
     width: 15rem;
   }
-  .grid{
-    width: 15rem;
+
+  .package_course_details{
+    padding: 1rem 0.5rem;
+  }
+  .package_course_details img{
+    max-width: 8rem;
+    height:auto;
   }
 
+}
+/* --------------------- w:300 phone --------------------- */
+@media only screen and (max-width: 300px) {
+  .content{
+    width: 80%;
+  }
+
+  .package_course_details{
+    padding: 1rem 0.5rem;
+  }
+  .package_course_details img{
+    max-width: 8rem;
+    height:auto;
+  }
 }
