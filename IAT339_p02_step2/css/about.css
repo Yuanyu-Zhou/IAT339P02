@@ -1,10 +1,5 @@
 
 
-.courses_main{
-  display: flex;
-  flex-direction: column;
-}
-
 .header_title{
   display: flex;
   background-image: url("../imgs/header_title_placeholder.png");
@@ -19,18 +14,19 @@
   margin-right: auto;
   font-size: 1.8rem;
   color: white;
-  z-index: auto;
+  z-index: 0;
 }
 
-.package_details{
+
+.team_details{
   display: flex;
   flex-direction: column;
 }
-.package_course_details{
+.instructor_details{
   padding: 3rem 5rem;
   display: flex;
   flex-direction: row;
 }
-.course_descriptions{
+.content_descriptions{
   margin-left: 3rem;
 }
