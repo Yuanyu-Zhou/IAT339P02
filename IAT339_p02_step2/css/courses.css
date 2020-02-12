@@ -1,4 +1,6 @@
-
+p{
+  margin: 1rem 0;
+}
 
 .courses_main{
   display: flex;

@@ -5,6 +5,7 @@
   height: 20rem;
   overflow: hidden;
   background-size: cover;
+  z-index: -1;
 }
 .middle{
   position: absolute;
@@ -19,6 +20,7 @@
   left: 50%;
   transform: translateX(-50%);
   display: flex;
+  z-index: 1;
 }
 .bar{
   width: 50px;
@@ -162,26 +164,3 @@ input[name="r"]{
 }
 
 /*-------------end of slideshow styling----------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

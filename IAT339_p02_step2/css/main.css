@@ -47,6 +47,36 @@ section code {
   padding: 0.5rem;
 }
 
+/* ----------------------- Submit Button ---------------------------- */
+.button_submit{
+  display: inline-block;
+  padding: 1em 1em;
+  color: white;
+  background-color: #2F4E7C;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+
+.button_submit:hover{
+  background-color: #FFECC6;
+  color: #072F58;
+}
+.button-nav:focus{
+  background-color: #FFE5AD;
+  color: #072F58;
+}
+
+.link_in_text{
+  text-decoration: none;
+  color: #86B8D9;
+  font-weight: bold;
+}
+.link_in_text:hover{
+  /* light blue */
+  color: #F1AF23;
+}
 /* --------------------- Nav Bar ------------------- */
 .header{
   position: sticky;
@@ -70,6 +100,7 @@ section code {
   padding: 0.5rem 0;
   margin: 0 5%;
   float: left;
+  z-index: 2;
 }
 
 .nav_main{
@@ -77,7 +108,6 @@ section code {
   float: right;
   margin-right: 5%;
   clear: right;
-  z-index: 1;
 }
 
 .nav_main ul {
@@ -153,6 +183,35 @@ section code {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+/* --------------------- footer --------------------- */
+footer{
+  background-color: #ACD3EC;
+}
+.footer{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.footer p{
+    margin: 1rem 0;
+}
+
+.footer_l{
+  margin: 1rem 2rem;
+  flex: 1;
+}
+.footer_r{
+  margin: 1rem 2rem;
+  flex: 1;
+}
+input.button_submit{
+  width: 10rem;
+}
+
+
 /* --------------------- Responsive view --------------------- */
 /* --------------------- w:1920 desktop--------------------- */
 @media only screen and (max-width: 1920px) {
