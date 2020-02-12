@@ -93,6 +93,7 @@ section code {
 
   border-bottom-left-radius: 0.2rem;
   border-bottom-right-radius: 0.2rem;
+  z-index: 2;
 }
 
 .header h1{
