@@ -223,6 +223,19 @@ input.button_submit{
     max-height: 10rem;
     width: auto;
   }
+
+/* new code */
+.home_content_details{
+   max-height: 10rem;
+    width: auto;
+
+  }
+
+  .home_content_details img{
+    max-height: 10rem;
+    width: auto;
+  }
+
 }
 
 /* --------------------- w:1200 desktop --------------------- */
@@ -236,10 +249,24 @@ input.button_submit{
   .package_course_details{
     padding: 2rem 2rem;
   }
+
   .package_course_details img{
     max-height: 8rem;
     width: auto;
   }
+
+/* new code 
+
+  .home_content_details{
+   padding: 2rem 2rem;
+  }
+
+  .home_content_details img{
+    padding: 2rem 2rem;
+
+  }
+
+ */
 }
 
 /* --------------------- w:600 tablet--------------------- */
@@ -282,6 +309,18 @@ input.button_submit{
     height:auto;
   }
 
+  /* new code 
+
+   .home_content_details{
+    padding: 1rem 0.5rem;
+  }
+
+  .home_content_details img{
+    max-width: 8rem;
+    height:auto;
+  }
+*/
+
 }
 /* --------------------- w:300 phone --------------------- */
 @media only screen and (max-width: 300px) {
@@ -296,4 +335,17 @@ input.button_submit{
     max-width: 8rem;
     height:auto;
   }
+
+    /* new code 
+
+ .home_content_details{
+    padding: 1rem 0.5rem;
+  }
+
+  .home_content_details img{
+     max-width: 8rem;
+    height:auto;
+  }
+
+*/
 }
