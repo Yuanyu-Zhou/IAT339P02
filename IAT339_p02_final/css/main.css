@@ -182,7 +182,7 @@ section code {
 .content{
   width: 100%;
   max-width:1600px;
-  margin:0 auto;
+  margin: 5rem auto;
 }
 
 
@@ -197,7 +197,7 @@ footer{
   display: flex;
 }
 .footer p{
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 .footer_l{
@@ -217,7 +217,9 @@ input.button_submit{
 /* --------------------- w:1920 desktop--------------------- */
 @media only screen and (max-width: 1920px) {
   .content{
-    width: 60%;
+    width: 100%;
+    max-width: 1000px;
+    margin: 3rem auto;
   }
   .package_course_details img{
     max-height: 10rem;
@@ -228,26 +230,45 @@ input.button_submit{
 /* --------------------- w:1200 desktop --------------------- */
 @media only screen and (max-width: 1200px) {
   .content{
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    max-width: 700px;
+    margin: 3rem auto;
   }
 
   .package_course_details{
-    padding: 2rem 2rem;
+    padding: 1rem 2rem;
+    border-top: 0.1rem solid #ACD3EC;
+    flex-direction: column;
   }
   .package_course_details img{
-    max-height: 8rem;
-    width: auto;
+    margin: 2rem auto;
+    height: auto;
+  }
+}
+/* --------------------- w:800 desktop --------------------- */
+@media only screen and (max-width: 800px) {
+  h3{
+    text-align: center;
+  }
+  .content{
+    width: 100%;
+    max-width: 500px;
+    margin: 2rem auto;
+  }
+
+  .package_course_details{
+    padding: 1rem 2rem;
+    border-top: 0.1rem solid #ACD3EC;
+    flex-direction: column;
+  }
+  .package_course_details img{
+    margin: 2rem auto;
+    height: auto;
   }
 }
 
 /* --------------------- w:600 tablet--------------------- */
 @media only screen and (max-width: 600px) {
-  .content{
-    width: 70%;
-  }
-
   h1{
     font-size: 1.5em;
   }
@@ -257,6 +278,7 @@ input.button_submit{
 
   h3 {
     font-size: 1em;
+    text-align: center;
   }
 
   p {
@@ -274,26 +296,42 @@ input.button_submit{
     width: 15rem;
   }
 
+  .content{
+    width: 100%;
+    max-width: 400px;
+    margin: 2rem auto;
+  }
+
   .package_course_details{
-    padding: 1rem 0.5rem;
+    padding: 1rem 2rem;
+    border-top: 0.1rem solid #ACD3EC;
+    flex-direction: column;
   }
   .package_course_details img{
-    max-width: 8rem;
-    height:auto;
+    margin: 2rem auto;
+    height: auto;
   }
 
 }
 /* --------------------- w:300 phone --------------------- */
 @media only screen and (max-width: 300px) {
+  h3{
+    text-align: center;
+  }
   .content{
-    width: 80%;
+    width: 100%;
+    max-width: 200px;
+    margin: 1rem auto;
   }
 
   .package_course_details{
-    padding: 1rem 0.5rem;
+    margin-top: 5rem;
+    padding: 1rem 2rem;
+    border-top: 0.1rem solid #ACD3EC;
+    flex-direction: column;
   }
   .package_course_details img{
-    max-width: 8rem;
-    height:auto;
+    margin: 2rem auto;
+    height: auto;
   }
 }
