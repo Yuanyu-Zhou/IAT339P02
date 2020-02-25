@@ -225,7 +225,13 @@ input.button_submit{
     max-height: 10rem;
     width: auto;
   }
+
+  .instructor_details img{
+    max-height: 10rem;
+    width: auto;
+  }
 }
+
 
 /* --------------------- w:1200 desktop --------------------- */
 @media only screen and (max-width: 1200px) {
@@ -244,7 +250,21 @@ input.button_submit{
     margin: 2rem auto;
     height: auto;
   }
+
+  .instructor_details img{
+    margin: 2rem auto;
+    height: auto;
+  }
+  .instructor_details{
+    padding: 1rem 2rem;
+    border-top: 0.1rem solid #ACD3EC;
+    flex-direction: column;
+
+  }
+
 }
+
+
 /* --------------------- w:800 desktop --------------------- */
 @media only screen and (max-width: 800px) {
   h3{
@@ -264,6 +284,16 @@ input.button_submit{
   .package_course_details img{
     margin: 2rem auto;
     height: auto;
+  }
+   .instructor_details img{
+    margin: 2rem auto;
+    height: auto;
+  }
+  .instructor_details{
+    padding: 1rem 2rem;
+    border-top: 0.1rem solid #ACD3EC;
+    flex-direction: column;
+
   }
 }
 
@@ -312,6 +342,17 @@ input.button_submit{
     height: auto;
   }
 
+   .instructor_details img{
+    margin: 2rem auto;
+    height: auto;
+  }
+  .instructor_details{
+    padding: 1rem 2rem;
+    border-top: 0.1rem solid #ACD3EC;
+    flex-direction: column;
+
+  }
+
 }
 /* --------------------- w:300 phone --------------------- */
 @media only screen and (max-width: 300px) {
@@ -334,4 +375,16 @@ input.button_submit{
     margin: 2rem auto;
     height: auto;
   }
+   .instructor_details img{
+    margin: 2rem auto;
+    height: auto;
+  }
+  .instructor_details{
+     margin-top: 5rem;
+    padding: 1rem 2rem;
+    border-top: 0.1rem solid #ACD3EC;
+    flex-direction: column;
+
+  }
+
 }

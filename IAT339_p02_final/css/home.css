@@ -1,4 +1,5 @@
 
+
 /* SLIDE SHOW SECTION */
 .slidershow{
   width: 100%;
@@ -79,6 +80,43 @@ input[name="r"]{
 
 /* -----------CONTENT---------------*/
 
+.container {
+  padding: 64px;
+}
+
+.row:after {
+
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+
+/*
 .home_details{
   margin-top: 20rem;
   display: flex;
@@ -94,6 +132,7 @@ input[name="r"]{
 
 }
 
+*/
 
 
 /*-------------SLIDE SHOW FOR REVIEWS----------------*/
@@ -166,6 +205,17 @@ input[name="r"]{
 }
 #r10:checked ~ .s1{
   margin-left: -80%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
 }
 
 /*-------------end of slideshow styling----------------*/
