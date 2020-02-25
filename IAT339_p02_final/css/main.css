@@ -103,80 +103,55 @@ section code {
   float: left;
   z-index: 2;
 }
-
+/* ------------------------ inside nav ----------------------------*/
 .nav_main{
-  overflow: hidden;
   float: right;
   margin-right: 5%;
-  clear: right;
 }
 
-.nav_main ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.dropdown_indicator{
+  max-width: 1rem;
+  height: auto;
+  padding: 0 0.2rem;
 }
+
 .nav_main ul li{
+  float: left;
+  position: relative;
   list-style-type: none;
   background-color: #ACD3EC;
   padding: 1rem 0.5rem;
-  border-radius: 0.2rem;
-  -webkit-transition: background-color 0.4s ease-out;
-  transition: background-color 0.4s ease-out;
+}
+.nav_main ul li:hover{
+  background-color: #86B8D9;
 }
 
 .nav_main ul li a{
-  overflow: hidden;
-  display: block;
   font-family: 'Varela Round', sans-serif;
   font-size: 1.3rem;
   text-decoration: none;
   color: white;
-}
-.nav_dropdown .nav_dropdown_button{
-  border: none;
-  outline: none;
-  background-color: #ACD3EC;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 1.3rem;
-  padding: 1rem 0.5rem;
-  color: white;
-  border-radius: 0.2rem;
-}
-.nav_dropdown:hover .nav_dropdown_button{
-  background-color: #86B8D9;
-}
-.nav_dropdown_content{
-  display: none;
-  flex-direction: column;
-  position: absolute;
-  background-color: #86B8D9;
-  min-width: 10rem;
-  border-radius: 0.2rem;
-  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
-}
-.nav_dropdown_content a{
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  display: block;
-  padding: 0.2rem 0.2rem;
-}
-.nav_dropdown_content a:hover{
-  background-color: #86B8D9;
-}
-.nav_dropdown:hover .nav_dropdown_content{
-  display: block;
 }
 
-.nav_main ul li:hover{
-  /* orange  */
+.nav_dropdown{
+  margin-top: 1rem;
+  display: none;
+  position: absolute;
+  background-color: #ACD3EC;
+  width: 10rem;
+}
+
+.nav_main ul li:hover ul{
+  display: block;
+}
+.nav_dropdown li:hover{
+  width: 10rem;
   background-color: #86B8D9;
 }
-.nav_main ul li:focus{
-  /* orange  */
-  background-color: #3B6CA0;
+.nav_dropdown li a{
+  padding: 0.1rem 0.1rem;
 }
+
 
 /* -------------------------- content ---------------------------*/
 .content{
