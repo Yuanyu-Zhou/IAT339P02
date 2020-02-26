@@ -15,7 +15,13 @@
   z-index: 0;
 }
 
+/*
+.courses-page_intro h2{
+  float: left;
+}
+*/
 
+}
 .team_details{
   display: flex;
   flex-direction: column;
