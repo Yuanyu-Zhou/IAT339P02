@@ -4,9 +4,9 @@
 .slidershow{
   width: 100%;
   height: auto;
-  overflow: hidden;
-  z-index: 1;
+  z-index: 0;
   clear: both;
+  overflow: scroll;
 }
 
 .slide img{
@@ -95,7 +95,6 @@ input[name="r"]{
 }
 
 .column-66 {
-
   float: left;
   width: 66.66666%;
   padding: 20px;

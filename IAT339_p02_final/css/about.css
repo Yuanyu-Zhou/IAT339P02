@@ -21,7 +21,9 @@
 }
 */
 
-}
+
+/*
+  --------------------FOR TEAM MEMBERS PAGE-----------------------*/
 .team_details{
   display: flex;
   flex-direction: column;
@@ -34,3 +36,39 @@
 .content_descriptions{
   margin-left: 3rem;
 }
+ /* --------------------FOR TEAM MEMBERS PAGE-----------------------*/
+
+ /* --------------------FOR MISSION AND VALUES PAGE-----------------------*/
+
+.about_page_intro{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.about_page_intro h3, h2{
+  text-align: left;
+}
+
+
+
+ /* --------------------FOR FAQ PAGE-----------------------*/
+ .faq h2{
+padding-bottom: 20px;
+padding-top: 20px;
+ }
+
+ .whitespace p{
+padding-bottom: 100px;
+
+ }
+
+
+
+
+
+
+
+
+
+
