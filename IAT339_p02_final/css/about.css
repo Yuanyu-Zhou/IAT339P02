@@ -16,13 +16,6 @@
 }
 
 /*
-.courses-page_intro h2{
-  float: left;
-}
-*/
-
-
-/*
   --------------------FOR TEAM MEMBERS PAGE-----------------------*/
 .team_details{
   display: flex;
@@ -62,13 +55,3 @@ padding-top: 20px;
 padding-bottom: 100px;
 
  }
-
-
-
-
-
-
-
-
-
-

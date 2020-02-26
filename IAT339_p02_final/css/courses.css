@@ -6,7 +6,7 @@ p{
 }
 
 .course_descriptions a h3:hover{
-  color: #FFF5E0;
+  color: #EFAC00;
 }
 .course_descriptions a img{
   height: 2.5rem;
@@ -15,7 +15,8 @@ p{
   float: right;
 }
 .course_descriptions a img:hover{
-  border-bottom: 0.1rem #FFF5E0 solid;
+  border-right: 0.1rem #EFAC00 solid;
+  padding-right: 0.5rem;
 }
 
 .courses_main{
@@ -51,7 +52,7 @@ p{
   flex-direction: row;
 }
 .package_course_details:hover{
-  background-color: #D1E1F1;
+  background-color: #F2F6FA;
   -webkit-transition: background-color 0.5s ease-out;
   -moz-transition: background-color 0.5s ease-out;
   -o-transition: background-color 0.5s ease-out;
@@ -63,13 +64,17 @@ p{
   margin: 0 0 0 2rem;
 }
 
+.img_course{
+  border-radius: 1rem;
+  box-shadow: 0 0.1rem 0.5rem 0.1rem #A4B1BF;
+}
 
 /* --------------------- Responsive view --------------------- */
 /* --------------------- w:1920 desktop--------------------- */
 @media only screen and (max-width: 1920px) {
   .package_course_details img{
-    max-height: 10rem;
-    width: auto;
+    height: auto;
+    width: 15rem;
   }
 
   .instructor_details img{

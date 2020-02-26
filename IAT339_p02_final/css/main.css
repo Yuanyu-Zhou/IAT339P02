@@ -89,7 +89,7 @@ section code {
   right: 0;
   width: 100%;
 
-  background-color: #ACD3EC;
+  background-color: #ADC5DC;
 
   border-bottom-left-radius: 0.2rem;
   border-bottom-right-radius: 0.2rem;
@@ -119,11 +119,11 @@ section code {
   float: left;
   position: relative;
   list-style-type: none;
-  background-color: #ACD3EC;
+  background-color: #ADC5DC;
   padding: 1rem 0.5rem;
 }
 .nav_main ul li:hover{
-  background-color: #86B8D9;
+  background-color: #8BA8C5;
 }
 
 .nav_main ul li a{
@@ -137,7 +137,7 @@ section code {
   margin-top: 1rem;
   display: none;
   position: absolute;
-  background-color: #ACD3EC;
+  background-color: #ADC5DC;
   width: 10rem;
 }
 
@@ -152,7 +152,14 @@ section code {
   padding: 0.1rem 0.1rem;
 }
 
-
+.join{
+  background-color: #EFAC00;
+  padding: 0 1rem;
+  border-radius: 1rem;
+}
+.join:hover{
+  background-color: #8BA8C5;
+}
 /* -------------------------- content ---------------------------*/
 .content{
   width: 100%;
@@ -163,7 +170,7 @@ section code {
 
 /* --------------------- footer --------------------- */
 footer{
-  background-color: #ACD3EC;
+  background-color: #ADC5DC;
 }
 .footer{
   width: 80%;
@@ -187,6 +194,36 @@ input.button_submit{
   width: 10rem;
 }
 
+input{
+  margin: 0.2rem 0.2rem;
+  padding: 0.2rem 0.5rem;
+  background-color: #D7D7D7;
+  width: 100%;
+  border: none;
+  box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #A4B1BF inset;
+}
+input::placeholder{
+  color: #2F4E7C;
+}
+
+.form_button{
+  width: 100%;
+  margin: 1rem auto;
+  height: 2rem;
+  color: white;
+  background-color: #2F4E7C;
+}
+.form_button:hover{
+  background-color: #FFF5E0;
+  color: #2F4E7C;
+}
+
+.copyright{
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
 
 /* --------------------- Responsive view --------------------- */
 /* --------------------- w:1920 desktop--------------------- */
@@ -195,10 +232,6 @@ input.button_submit{
     width: 100%;
     max-width: 1000px;
     margin: 3rem auto;
-  }
-  .package_course_details img{
-    max-height: 10rem;
-    width: auto;
   }
 
   .instructor_details img{
@@ -216,25 +249,13 @@ input.button_submit{
     margin: 3rem auto;
   }
 
-  .package_course_details{
-    padding: 1rem 2rem;
-    border-top: 0.1rem solid #ACD3EC;
-    flex-direction: column;
-  }
-  .package_course_details img{
-    margin: 2rem auto;
-    height: auto;
-  }
-
   .instructor_details img{
     margin: 2rem auto;
     height: auto;
   }
   .instructor_details{
     padding: 1rem 2rem;
-    border-top: 0.1rem solid #ACD3EC;
     flex-direction: column;
-
   }
 
 }
@@ -250,23 +271,12 @@ input.button_submit{
     max-width: 500px;
     margin: 2rem auto;
   }
-
-  .package_course_details{
-    padding: 1rem 2rem;
-    border-top: 0.1rem solid #ACD3EC;
-    flex-direction: column;
-  }
-  .package_course_details img{
-    margin: 2rem auto;
-    height: auto;
-  }
    .instructor_details img{
     margin: 2rem auto;
     height: auto;
   }
   .instructor_details{
     padding: 1rem 2rem;
-    border-top: 0.1rem solid #ACD3EC;
     flex-direction: column;
 
   }
@@ -307,23 +317,12 @@ input.button_submit{
     margin: 2rem auto;
   }
 
-  .package_course_details{
-    padding: 1rem 2rem;
-    border-top: 0.1rem solid #ACD3EC;
-    flex-direction: column;
-  }
-  .package_course_details img{
-    margin: 2rem auto;
-    height: auto;
-  }
-
    .instructor_details img{
     margin: 2rem auto;
     height: auto;
   }
   .instructor_details{
     padding: 1rem 2rem;
-    border-top: 0.1rem solid #ACD3EC;
     flex-direction: column;
 
   }
@@ -342,30 +341,18 @@ input.button_submit{
     max-width: 200px;
     margin: 1rem auto;
   }
-
-  .package_course_details{
-    margin-top: 5rem;
-    padding: 1rem 2rem;
-    border-top: 0.1rem solid #ACD3EC;
-    flex-direction: column;
-  }
-  .package_course_details img{
-    margin: 2rem auto;
-    height: auto;
-  }
    .instructor_details img{
     margin: 2rem auto;
     height: auto;
   }
   .instructor_details{
-     margin-top: 5rem;
+    margin-top: 5rem;
     padding: 1rem 2rem;
-    border-top: 0.1rem solid #ACD3EC;
     flex-direction: column;
 
   }
   .about_page_intro h3, h2{
   text-align: left;
-}
+  }
 
 }
