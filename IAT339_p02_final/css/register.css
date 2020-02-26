@@ -1,0 +1,53 @@
+.bg_register{
+  background-image: url("../imgs/bg_register_pattern.png");
+  background-position: center;
+  background-size: cover;
+}
+.register{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(243, 247, 250, 0.8);
+  padding: 2rem 2rem;
+  box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #A4B1BF;
+}
+
+.register_l{
+  flex: 1;
+  padding-right: 2rem;
+}
+.register_l h2{
+  text-align: left;
+}
+
+/* ------------------ Register: Right -------------------- */
+.register_r{
+  flex: 1;
+  padding-left: 2rem;
+}
+input{
+  margin: 0.2rem 0.2rem;
+  padding: 0.2rem 0.5rem;
+  background-color: #D7D7D7;
+  width: 100%;
+  border: none;
+  box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #A4B1BF inset;
+}
+input::placeholder{
+  color: #2F4E7C;
+}
+form button{
+  width: 100%;
+  margin: 1rem auto;
+  height: 2rem;
+  color: white;
+  background-color: #2F4E7C;
+}
+form button:hover{
+  background-color: #FFF5E0;
+  color: #2F4E7C;
+}
+#register_name{
+  display: flex;
+  flex-direction: row;
+}
