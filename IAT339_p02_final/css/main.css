@@ -246,6 +246,18 @@ input::placeholder{
     max-height: 10rem;
     width: auto;
   }
+
+   .column-33 img{
+     margin: 10rem auto;
+    height: auto;
+  }
+
+  .column-66 h3{
+    font-size: 2em;
+    text-align: left;
+
+  }
+
 }
 
 
@@ -266,6 +278,16 @@ input::placeholder{
     flex-direction: column;
   }
 
+   .column-33 img{
+     margin: 5rem auto;
+    height: auto;
+  }
+
+   .column-66 h3{
+    font-size: 2em;
+    text-align: center;
+
+  }
 }
 
 
@@ -286,6 +308,17 @@ input::placeholder{
   .instructor_details{
     padding: 1rem 2rem;
     flex-direction: column;
+
+  }
+
+  .column-33 img{
+     margin: 3rem auto;
+    height: auto;
+  }
+
+   .column-66 h3{
+    font-size: 1.5em;
+    text-align: center;
 
   }
 }
@@ -338,6 +371,18 @@ input::placeholder{
   text-align: left;
 }
 
+ .column-33 img {
+    margin: 2rem auto;
+    height: auto;
+  }
+
+   .column-66 h3{
+    font-size: 1.5em;
+    text-align: center;
+
+  }
+
+
 }
 /* --------------------- w:300 phone --------------------- */
 @media only screen and (max-width: 300px) {
@@ -362,5 +407,15 @@ input::placeholder{
   .about_page_intro h3, h2{
   text-align: left;
   }
+ .column-33 img{
+    margin: 1.5rem auto;
+    width: 2rem;
+    height: auto;
+  }
 
+    .column-66 h3{
+    font-size: 1em;
+    text-align: center;
+
+  }
 }
