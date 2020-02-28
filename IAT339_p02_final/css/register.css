@@ -1,5 +1,6 @@
 .bg_register{
-  background-image: url("../imgs/bg_register_pattern.png");
+  background-image: url("../imgs/bg_register.jpg");
+  /* Photo by Green Chameleon on Unsplash */
   background-position: center;
   background-size: cover;
 }
@@ -7,9 +8,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgba(243, 247, 250, 0.8);
-  padding: 2rem 2rem;
-  box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #A4B1BF;
+
 }
 
 .register_l{
@@ -24,6 +23,9 @@
 .register_r{
   flex: 1;
   padding-left: 2rem;
+  background-color: rgba(243, 247, 250, 0.8);
+  padding: 2rem 2rem;
+  box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #A4B1BF;
 }
 
 #register_name{
