@@ -18,6 +18,7 @@ h1{
   color: white;
   margin: 1rem 0;
   font-family: 'Varela Round', sans-serif;
+  transform-style: none;
 }
 
 h2{
@@ -102,6 +103,13 @@ section code {
   margin: 0 5%;
   float: left;
   z-index: 2;
+  text-decoration: none;
+}
+
+.header h1 a{
+  text-decoration: none;
+  color: white;
+
 }
 /* ------------------------ inside nav ----------------------------*/
 .nav_main{

@@ -4,8 +4,10 @@
 <head>
   <meta charset="utf-8">
   <title>Intermediate Courses</title>
-  <link href="../css/register.css" rel="stylesheet">
+    <link href="../css/register.css" rel="stylesheet">
     <link href="../css/main.css" rel="stylesheet">
+
+
 
   <!-- font from Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,700&display=swap" rel="stylesheet">
@@ -17,6 +19,9 @@
 
 <div class="header">
   <h1><a href="home.html">Beyond Fluency</a></h1>
+
+
+
   <!--  Nav -------------------------------->
   <nav class="nav_main">
     <ul>
@@ -43,41 +48,41 @@
     </ul>
   </nav>
 </div>
+<!--Header Title -------------------------------->
+<div class="header_title">
+  <h2>Beyond Fluency</h2>
+</div>
+
 
 <!-- register background-->
-<div class="bg_register">
+<div class="bg_purchase_register">
 <section class="content">
 
   <!-- Register Page -->
-  <div class="register">
+  <div class="register_purchase">
 <!-- Register Form: left -> Information -->
-    <div class="register_l">
-      <h2>We are here for people who desire for knowledge</h2>
-      <p>Meet people from everywhere, learn from each others, get involved in communities around you.</p>
-    </div>
+      <h2>Great! You're almost done</h2>
+      <p>Just enter the information below and you're good to go</p>
 
 <!-- Register Form: right -> form to fill out -->
-    <div class="register_r">
-      <h3>Let Us Know You</h3>
+    <div class="register_right">
       <form action="user.html" method="post">
 
-        <div id="register_name">
+        <div id="register_info">
           <input type="text" name="name_f" placeholder="First Name">
           <input type="text" name="name_l" placeholder="Last Name">
+          <input type="text" name="name_l" placeholder="Email Address">
+
         </div>
 
-        <input type="email" name="email" placeholder="Email">
-        <input type="password" name="password" placeholder="Password">
-        <input type="password" name="password_confirm" placeholder="Please confirem your password">
+        <input type="email" name="email" placeholder="Credit Card Number">
+        <input type="email" name="email" placeholder="Address">
 
-        <div id="register_selections">
-          <label for="occupations">I am </label>
-          <select id="occupations">
-            <option value="volvo">a student</option>
-            <option value="saab">working</option>
-          </select>
-        </div>
-        <button class="form_button" onclick="window.location.href = 'profile.html';" type="button" name="button">Join Now</button>
+        <input type="password" name="password" placeholder="CVV">
+        <input type="password" name="password_confirm" placeholder="Expiration Date">
+
+      
+        <button class="form_button" onclick="window.location.href = 'order_complete.html';" type="button" name="button">Confirm Order</button>
       </form>
 
     </div>
@@ -86,7 +91,9 @@
 </section> <!-- content end -->
 </div> <!-- bg end-->
 
-<!--LESSON EXPECTATION END--------------------------------------------->
+
+
+<!-- content end -->
 <footer>
 <div class="footer">
   <div class="footer_l">
