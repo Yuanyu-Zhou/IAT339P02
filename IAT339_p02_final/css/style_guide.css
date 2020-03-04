@@ -192,33 +192,59 @@
 }
 
 /*  ------------------- Grid Structure : Home Page; ------------------- */
-#frame{
+#frame_home{
   display: flex;
   flex-direction: column;
   border: 0.1rem solid black;
 }
 
-#nav p{
-  text-align: right;
-  padding: 0.5rem 3rem;
-  color: white;
-  background-color: #ACD3EC;
+
+.container {
+  padding: 64px;
 }
 
-.slogan{
-  text-align: center;
-  padding: 3rem 5rem;
-  background-color: #3B6CA0;
-  color: white;
-  font-size: 1.5rem;
+.row_home:after {
+
+  content: "";
+  display: table;
+  clear: both
 }
-#content p{
-  padding: 10rem 0;
+
+.column_home {
+
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
   text-align: center;
-  background-color: #F3F7FA;
-  width: 80%;
+  background-color: #8B8B8B;
   margin-left: auto;
   margin-right: auto;
+}
+
+.column_image {
+
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+  text-align: center;
+  background-color: #3B6CA0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.slider{
+  text-align: center;
+  padding: 5rem 5rem;
+  background-color: #3B6CA0;
+  color: white;
+  font-size: 0.8rem;
+}
+
+
+#image{
+  color: grey;
+  width: 240px;
 }
 
 .footer{
@@ -227,7 +253,23 @@
   background-color: #3B6CA0;
   color: white;
   font-size: 0.8rem;
+  width: 100%;
 }
+
+.column_about {
+
+  float: left;
+  width: 66.66666%;
+  margin-bottom: 10px;
+
+  padding: 10px;
+  text-align: center;
+  background-color: #8B8B8B;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 
 /* ------------------ Site Map ------------------------- */
