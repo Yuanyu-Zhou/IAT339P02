@@ -1,5 +1,54 @@
 /* --------------------- INTERACTIVE ELEMENTS ------------------- */
 
+.style_guide_nav_main{
+  float: right;
+  margin-right: 5%;
+}
+
+.dropdown_indicator{
+  width: auto;
+    height: .5rem;
+    padding: 0px 0.2rem;
+    margin-top: 0.50rem;
+}
+
+.style_guide_nav_main ul li{
+  float: left;
+  position: relative;
+  list-style-type: none;
+  background-color: #ADC5DC;
+  padding: 1rem 0.5rem;
+}
+.style_guide_nav_main ul li:hover{
+  background-color: #8BA8C5;
+}
+
+.style_guide_nav_main ul li a{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+
+.nav_dropdown{
+  margin-top: 1rem;
+  display: none;
+  position: absolute;
+  background-color: #ADC5DC;
+  width: 10rem;
+}
+
+.style_guide_nav_main ul li:hover ul{
+  display: block;
+}
+.nav_dropdown li:hover{
+  width: 10rem;
+  background-color: #86B8D9;
+}
+.nav_dropdown li a{
+  padding: 0.1rem 0.1rem;
+}
 #nav_main_example ul li{
   list-style-type: none;
   padding: 1rem;
@@ -191,6 +240,7 @@
   font-size: 0.8rem;
 }
 
+<<<<<<< HEAD
 /*  ------------------- Grid Structure : Home Page; ------------------- */
 #frame_home{
   display: flex;
@@ -271,6 +321,8 @@
 
 
 
+=======
+>>>>>>> master
 
 /* ------------------ Site Map ------------------------- */
 #site_map img{
