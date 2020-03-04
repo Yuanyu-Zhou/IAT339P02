@@ -191,6 +191,44 @@
   font-size: 0.8rem;
 }
 
+/*  ------------------- Grid Structure : Home Page; ------------------- */
+#frame{
+  display: flex;
+  flex-direction: column;
+  border: 0.1rem solid black;
+}
+
+#nav p{
+  text-align: right;
+  padding: 0.5rem 3rem;
+  color: white;
+  background-color: #ACD3EC;
+}
+
+.slogan{
+  text-align: center;
+  padding: 3rem 5rem;
+  background-color: #3B6CA0;
+  color: white;
+  font-size: 1.5rem;
+}
+#content p{
+  padding: 10rem 0;
+  text-align: center;
+  background-color: #F3F7FA;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer{
+  text-align: center;
+  padding: 2rem 5rem;
+  background-color: #3B6CA0;
+  color: white;
+  font-size: 0.8rem;
+}
+
 
 /* ------------------ Site Map ------------------------- */
 #site_map img{

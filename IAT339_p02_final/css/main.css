@@ -17,7 +17,7 @@ h1{
   color: white;
   margin: 1rem 0;
   font-family: 'Varela Round', sans-serif;
-  transform-style: none;
+  /*transform-style: none; */
 }
 
 h2{
