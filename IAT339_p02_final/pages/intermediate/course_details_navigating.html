@@ -3,10 +3,11 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Intermediate Courses</title>
-  <link href="../css/courses.css" rel="stylesheet">
-  <link href="../css/main.css" rel="stylesheet">
-  <link href="../css/product_page1.css" rel="stylesheet">
+  <link href="../../css/courses.css" rel="stylesheet">
+  <link href="../../css/main.css" rel="stylesheet">
+  <link href="../../css/product_details.css" rel="stylesheet">
 
 
   <!-- font from Google Fonts -->
@@ -22,18 +23,17 @@
   <!--  Nav -------------------------------->
   <nav class="nav_main">
     <ul>
-      <li><a href="home.html">Home</a></li>
       <!-- dropdown title: Course-->
-      <li><a href="#">Courses<img class="dropdown_indicator" src="../imgs/dropdown_indicator.png" alt="dropdown_indicator"></a>
+      <li><a href="#">Courses<img class="dropdown_indicator" src="../../imgs/dropdown_indicator.png" alt="dropdown_indicator"></a>
         <!-- dropdown content-->
         <ul class="nav_dropdown">
           <li><a href="course_intermediate.html">Intermediate</a></li>
-          <li><a href="course_advanced.html">Advanced</a></li>
+          <li><a href="../advanced/course_advanced.html">Advanced</a></li>
         </ul>
       </li>
 
       <!-- dropdown title: About-->
-      <li><a href="#">About<img class="dropdown_indicator" src="../imgs/dropdown_indicator.png" alt="dropdown_indicator"></a>
+      <li><a href="#">About<img class="dropdown_indicator" src="../../imgs/dropdown_indicator.png" alt="dropdown_indicator"></a>
         <!-- dropdown content-->
         <ul class="nav_dropdown">
           <li><a href="about.html">Our Goals</a></li>
@@ -41,28 +41,29 @@
           <li><a href="faq.html">FAQ</a></li>
         </ul>
       </li>
-      <li><a class="join" href="user.html">Join Us</a></li>
+      <li id="link_join"><a href="user.html">Join Us</a></li>
     </ul>
   </nav>
 </div>
-<!--Header Title -------------------------------->
-<div class="header_title">
-  <h2>Café Conversation</h2>
-</div>
 
+<!-- header banner-->
+<div class="header_banner">
+  <div id="bg_details_neighbourhood"></div>
+  <!-- title -->
+  <div class="header_banner_title">
+    <h2>Navigating the Neighbourhood</h2>
+  </div>
+</div>
 
 <section class="content">
- <p>Each Café conversation happens one a week! So what’re you waiting for? Have a look at your calendar and see when you can squeeze in an english lesson and book now! You can book upto 4 weeks ahead so you’re ready for your class well in advance. Click on one of the available dates to book.</p>
+ <p>Do you have trouble finding your direction in the city? Would you like to be able to give good directions? Learn how to comfortably get around the city (on foot or by transit), ask/give directions, and learn how to describe your location.
+ </p>
   <div class="all_schedule">
 
-
-
   <div class="course_schedule">
-
-
-
+    <div>
     <h4>Time and Date</h4>
-    <p>March 5, 5:00 pm to 6:00</p>
+    <p>March 4, 5:00 pm to 6:30</p>
      <h4>Instructor</h4>
     <p>Aldona Czajewska</p>
      <h4>Location</h4>
@@ -70,65 +71,61 @@
     <p>University Blvd #1302,</p>
     <p> Vancouver, BC V6T 1Z1, Canada</p>
      <h4>Students</h4>
-    <p>Lixin L.</p>
-    <p>Lai J.</p>
+    <p>Xing Xing</p>
+    <p>Yue Liang</p>
+    <p>A Qi</p>
+    </div>
+    <div>
+      <button class="form_button" onclick="window.location.href = 'purchase_confirmation.html';" type="button" name="button">Book</button>
+    </div>
 </div>
 
   <div class="course_schedule">
+    <div>
     <h4>Time</h4>
-    <p>March 12, 5:00 pm to 6:00</p>
+    <p>March 10, 3:30 pm to 4:00</p>
      <h4>Instructor</h4>
-    <p>Aldona Czajewska</p>
+    <p>Lee Haber</p>
      <h4>Location</h4>
     <p>Blue Chip Cafe 6133 </p>
     <p>University Blvd #1302,</p>
     <p> Vancouver, BC V6T 1Z1, Canada</p>
      <h4>Students</h4>
-    <p>Lixin L.</p>
-    <p>Lai J.</p>
+    <p>Ammy</p>
+    <p>Chang Huan</p>
+    <p>Mike</p>
+    </div>
+
+    <div>
+      <div>
+        <button class="form_button" onclick="window.location.href = 'purchase_confirmation.html';" type="button" name="button">Book</button>
+      </div>
+    </div>
 </div>
 </div>
 
 <div class="review_section">
 <div class="title_reviews">
-  <h3>Reviews</h3>
-  <button class="form_button" onclick="window.location.href = 'review.html';" type="button" name="button">Write a review</button>
+  <h2>Reviews</h2>
+  <button class="form_button" onclick="window.location.href='review.html';" type="button" name="button">Write a review</button>
 </div>
 
 
   <div class="all_reviews">
 
     <div class="left_review">
-    <img class="review_avatar" src="../imgs/profile.png" alt="avatar">
-    <p>Ingrid Josefina Faña López</p>
-    <img class="review_stars" src="../imgs/stars.png" alt="star rating">
-
+    <img class="review_avatar" src="../../imgs/profile.png" alt="avatar">
+    <p>Isabella</p>
+    <img class="review_stars" src="../../imgs/stars.png" alt="star rating">
     </div>
 
-
     <div class="right_review">
-      <p class="review_date">3 months ago</p>
-      <p>My experience with Beyond Fluency was great! I never regret attending to their class. Particularly me, I had the chance to receive assistance from Lee and I must say it didn’t feel like a class at all. I really enjoyed every second and was able to learn about different topics. Definitely recommended. :)</p>
+      <p class="review_date">1 months ago</p>
+      <p>Hola! Soy Christopher (hablo español nativo) y tuve clases de inglés en Beyond Fluency (con Lee y otros profesores). Mi experiencia fue muy buena, excelentes profesores y muy buenas personas.</p>
     </div>
 
  </div>
 
- <div class="all_reviews">
-
-    <div class="left_review">
-    <img class="review_avatar" src="../imgs/profile.png" alt="avatar">
-    <p>Yoojin Lee</p>
-    <img class="review_stars" src="../imgs/stars.png" alt="star rating">
-
-    </div>
-
-
-    <div class="right_review">
-      <p class="review_date">2 months ago</p>
-      <p>I have been attending Beyond Fluency classes from February. They provide small group classes and it's a good opportunity to practice my English speaking in a useful way. The instructors are very kind and nice. They try to correct all of grammar mistakes and pronunciation problems. If you want to find a small group class (less than 5), I highly recommend you this class.)</p>
-    </div>
-
- </div>
 </div>
 
 
