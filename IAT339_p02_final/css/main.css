@@ -318,6 +318,10 @@ input::placeholder{
 
   }
 
+  .column-66 p{
+    text-align: left;
+  }
+
 }
 
 
@@ -332,6 +336,12 @@ input::placeholder{
   .container img{
     height: 10rem;
     width: auto;
+  }
+
+    .column-66 h3{
+    font-size: 2em;
+    text-align: left;
+
   }
 
 }
@@ -354,6 +364,10 @@ input::placeholder{
   }
   .container p{
     text-align: left;
+  }
+
+   .column-66 h3{
+    text-align: center;
   }
 }
 
@@ -401,10 +415,11 @@ input::placeholder{
     width: auto;
   }
   .container p{
-    text-align: left;
+    text-align: center;
   }
   .container h3{
     font-size: 0.9rem;
+    text-align: center;
   }
   .footer{
     flex-direction: column;
@@ -428,10 +443,12 @@ input::placeholder{
     width: auto;
   }
   .container p{
-    text-align: left;
+    text-align: center;
   }
   .container h3{
     font-size: 0.8rem;
+    text-align: center;
+
   }
 
   .footer{
