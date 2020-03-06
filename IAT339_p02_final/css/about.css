@@ -45,74 +45,8 @@
 
  .whitespace p{
   padding-bottom: 100px;
-<<<<<<< HEAD
-=======
+}
 
- }
-<<<<<<< HEAD
- /* --------------------- Responsive view --------------------- */
- /* --------------------- w:1920 desktop--------------------- */
- @media only screen and (max-width: 1920px) {
-   .instructor_details img{
-     max-height: 10rem;
-     width: auto;
-   }
- }
-
-
- /* --------------------- w:1200 desktop --------------------- */
- @media only screen and (max-width: 1200px) {
-   .instructor_details img{
-     max-height: 8rem;
-     width: auto;
-   }
-
- }
-
- /* --------------------- w:800 desktop --------------------- */
- @media only screen and (max-width: 800px) {
-
-    .instructor_details img{
-     margin: 2rem auto;
-     height: auto;
-   }
-   .instructor_details{
-     padding: 1rem 2rem;
-     flex-direction: column;
->>>>>>> master
-
-   }
- }
-
-<<<<<<< HEAD
-=======
- /* --------------------- w:600 tablet--------------------- */
- @media only screen and (max-width: 600px) {
-   .instructor_details img{
-     margin: 2rem auto;
-     height: auto;
-   }
-   .instructor_details{
-     padding: 1rem 2rem;
-     flex-direction: column;
- }
- /* --------------------- w:300 phone --------------------- */
- @media only screen and (max-width: 300px) {
-
-    .instructor_details img{
-     margin: 2rem auto;
-     height: auto;
-   }
-   .instructor_details{
-     margin-top: 5rem;
-     padding: 1rem 2rem;
-     flex-direction: column;
-   }
- }
-=======
-
->>>>>>> master
-/* --------------------- Responsive view --------------------- */
 /* --------------------- w:1920 desktop--------------------- */
 @media only screen and (max-width: 1920px) {
   .package_course_details img{
@@ -179,6 +113,14 @@
     height: auto;
 }
 
+ .about_page_intro {
+margin: 1.5rem 1.5rem;
+ }
+
+ .faq{
+  margin: 1.5rem 1.5rem;
+ }
+
 
 }
 /* --------------------- w:300 phone --------------------- */
@@ -199,10 +141,16 @@
     height: auto;
 }
 
+ .about_page_intro {
+margin: 1.5rem 1.5rem;
+ }
+
+ .faq{
+  margin: 1.5rem 1.5rem;
+ }
+
+
 
 
 }
-<<<<<<< HEAD
-=======
->>>>>>> master
->>>>>>> master
+

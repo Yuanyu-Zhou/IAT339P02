@@ -170,3 +170,61 @@
 .title-reviews button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
+
+/* --------------------- w:1920 desktop--------------------- */
+@media only screen and (max-width: 1920px) {
+  .package_course_details img{
+    height: auto;
+    width: 15rem;
+  }
+
+  .instructor_details img{
+    max-height: 10rem;
+    width: auto;
+  }
+
+}
+
+
+
+
+/* --------------------- w:600 tablet--------------------- */
+@media only screen and (max-width: 600px) {
+
+
+
+ .content_blurb {
+  margin: 1.5rem 1.5rem;
+ }
+
+ .all_schedule{
+  flex-direction: column;
+ }
+
+ .all_reviews{
+    margin: 1rem 1rem;
+
+ }
+
+
+}
+/* --------------------- w:300 phone --------------------- */
+@media only screen and (max-width: 300px) {
+
+
+ .content_blurb {
+  margin: 1.5rem 1.5rem;
+ }
+
+ .all_schedule{
+  flex-direction: column;
+ }
+
+ .all_reviews{
+    margin: 1rem 1rem;
+
+ }
+
+}
+

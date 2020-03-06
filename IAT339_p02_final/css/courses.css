@@ -134,6 +134,17 @@ p{
     height: auto;
   }
 
+  .courses-page_intro{
+  margin: 1rem 1rem;
+ }
+
+ .course_intro{
+  margin: 1rem 1rem;
+ }
+
+
+
+
 }
 /* --------------------- w:300 phone --------------------- */
 @media only screen and (max-width: 300px) {
@@ -147,5 +158,12 @@ p{
     margin: 2rem auto;
     height: auto;
   }
+    .courses-page_intro{
+  margin: 1rem 1rem;
+ }
+
+ .course_intro{
+  margin: 1rem 1rem;
+ }
 
 }
