@@ -252,12 +252,12 @@ footer{
   display: flex;
 }
 .footer p{
-  margin: 1rem 0;
+  margin: 0.2rem 0;
 }
 
 .footer_l{
   margin: 1rem 2rem;
-  flex: 1;
+  flex: 1.5;
 }
 .footer_r{
   margin: 1rem 2rem;
@@ -270,10 +270,10 @@ input.button_submit{
 input{
   margin: 0.2rem 0.2rem;
   padding: 0.2rem 0.5rem;
-  background-color: #D7D7D7;
+  background-color: white;
   width: 100%;
   border: none;
-  box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #A4B1BF inset;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #A4B1BF inset;
 }
 input::placeholder{
   color: #2F4E7C;
