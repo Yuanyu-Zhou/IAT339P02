@@ -79,6 +79,17 @@ p{
   box-shadow: 0 0.1rem 0.5rem 0.1rem #A4B1BF;
 }
 
+.sale {
+  position: absolute;
+  top: 70;
+  left: 70;
+  z-index: 4;
+  content:url(https://lh3.googleusercontent.com/proxy/aXtfUNR9zO2KFdy_sIoEhlvzc4FriKsp8NMnsUleaCUVo6L5_VRiB_UGzjvTuOSDSrWtRyPpTXloQL5yb00M11e0MhqxrMIEq3VJyOPlqZCFq4LGmFzxpSrtQnEX_otNWg);
+  opacity: 0.7;
+   max-width:100%;
+  height:auto;
+}
+
 /* --------------------- Responsive view --------------------- */
 /* --------------------- w:1920 desktop--------------------- */
 @media only screen and (max-width: 1920px) {
@@ -145,6 +156,7 @@ p{
 
 
 
+
 }
 /* --------------------- w:300 phone --------------------- */
 @media only screen and (max-width: 300px) {
@@ -165,5 +177,7 @@ p{
  .course_intro{
   margin: 1rem 1rem;
  }
+
+
 
 }
