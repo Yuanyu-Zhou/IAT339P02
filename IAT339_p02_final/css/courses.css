@@ -14,6 +14,7 @@ p{
   width: auto;
   float: right;
 }
+
 .course_descriptions a img:hover{
   border-right: 0.1rem #EFAC00 solid;
   padding-right: 0.5rem;
@@ -57,9 +58,11 @@ p{
   flex-direction: column;
 }
 .package_course_details{
-  padding: 3rem 5rem;
+  margin: 1rem auto;
+  padding: 5rem 5rem;
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 .package_course_details:hover{
   background-color: #F2F6FA;
@@ -76,17 +79,32 @@ p{
 
 .img_course{
   border-radius: 1rem;
+  margin: 0 auto;
   box-shadow: 0 0.1rem 0.5rem 0.1rem #A4B1BF;
+}
+
+.course_on_sale{
+  position: relative;
+  margin: 1rem auto;
+}
+.banner_on_sale{
+  position: absolute;
+  padding: 0.5rem;
+  left: 0;
+  top: 2rem;
+  background-color: #F5C208;
+  color: white;
+  border-radius: 1rem 1rem 1rem 0;
 }
 
 .sale {
   position: absolute;
   top: 70;
   left: 70;
-  z-index: 4;
+  z-index: 1;
   content:url(https://lh3.googleusercontent.com/proxy/aXtfUNR9zO2KFdy_sIoEhlvzc4FriKsp8NMnsUleaCUVo6L5_VRiB_UGzjvTuOSDSrWtRyPpTXloQL5yb00M11e0MhqxrMIEq3VJyOPlqZCFq4LGmFzxpSrtQnEX_otNWg);
   opacity: 0.7;
-  max-width:100%;
+  width: 10rem;
   height:auto;
 }
 
@@ -102,17 +120,20 @@ p{
     max-height: 10rem;
     width: auto;
   }
+  .banner_on_sale{
+    top: 0%;
+  }
 }
 
 /* --------------------- w:1200 desktop --------------------- */
 @media only screen and (max-width: 1200px) {
   .package_course_details{
-    padding: 1rem 2rem;
+    padding: 3rem 4rem;
     /* border-top: 0.1rem solid #ACD3EC; */
     flex-direction: column;
   }
   .package_course_details img{
-    margin: 2rem auto;
+    /* margin: 2rem auto; */
     height: auto;
   }
 
@@ -127,7 +148,7 @@ p{
     flex-direction: column;
   }
   .package_course_details img{
-    margin: 2rem auto;
+    /* margin: 2rem auto; */
     height: auto;
   }
 
@@ -141,7 +162,7 @@ p{
     flex-direction: column;
   }
   .package_course_details img{
-    margin: 2rem auto;
+    /* margin: 2rem auto; */
     height: auto;
   }
 
@@ -167,7 +188,7 @@ p{
     flex-direction: column;
   }
   .package_course_details img{
-    margin: 2rem auto;
+    /* margin: 2rem auto; */
     height: auto;
   }
     .courses-page_intro{
