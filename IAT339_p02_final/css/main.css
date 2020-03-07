@@ -50,27 +50,7 @@ section code {
 
 
 
-/* ----------------------- Submit Button ---------------------------- */
-.button_submit{
-  display: inline-block;
-  padding: 1em 1em;
-  color: white;
-  background-color: #2F4E7C;
-  text-decoration: none;
-  border-radius: 0.25rem;
-  -webkit-transition: background-color 0.2s ease-out;
-  transition: background-color 0.2s ease-out;
-}
-
-.button_submit:hover{
-  background-color: #FFECC6;
-  color: #072F58;
-}
-.button-nav:focus{
-  background-color: #FFE5AD;
-  color: #072F58;
-}
-
+/* ----------------------- in-text link ---------------------------- */
 .link_in_text{
   text-decoration: none;
   color: #3B6CA0;
@@ -96,7 +76,7 @@ section code {
 
   border-bottom-left-radius: 0.2rem;
   border-bottom-right-radius: 0.2rem;
-    box-shadow: 0 0.1rem 0.5rem 0.1rem #888888;
+  box-shadow: 0 0.1rem 0.5rem 0.1rem #888888;
   z-index: 2;
 }
 
@@ -174,6 +154,15 @@ section code {
 }
 #link_join:hover a{
   color: #2F4E7C;
+}
+/* style guide header banner bg */
+#bg_style_guide{
+  background-image: url("../imgs/bg_style_guide.jpg");
+  height: 20rem;
+  opacity: 60%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0.1rem 1rem 0.1rem #888888;
 }
 
 /* page intermediate */
@@ -286,6 +275,8 @@ input::placeholder{
   height: 2rem;
   color: white;
   background-color: #2F4E7C;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
 }
 .form_button:hover{
   background-color: #FFF5E0;

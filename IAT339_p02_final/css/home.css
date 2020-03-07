@@ -80,9 +80,6 @@ input[name="r"]{
 /*-------------end of slideshow styling----------------*/
 
 /* -----------CONTENT---------------*/
-.content-section-one {
-  padding-top: 23rem;
-}
 
 .container {
   padding: 1rem 5rem;
@@ -193,6 +190,9 @@ input[name="p"]{
 #p3:checked ~ .s2{
   margin-left: -40%;
 }
+#p4:checked ~ .s2{
+  margin-left: -60%;
+}
 
 
 @media screen and (max-width: 1000px) {
@@ -206,37 +206,3 @@ input[name="p"]{
 }
 
 /*-------------end of slideshow styling----------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,3 +1,8 @@
+.style_guide_h2{
+  text-align: left;
+  border-bottom: 2px solid #ADC5DC;
+}
+
 /* --------------------- INTERACTIVE ELEMENTS ------------------- */
 
 .style_guide_nav_main{
@@ -57,9 +62,9 @@
   transition: background-color 0.4s ease-out;
 }
 #nav_main_example ul li a{
-  border-radius: 0.2rem;
+  /* border-radius: 0.2rem; */
   padding: 1rem;
-  background-color: #ACD3EC;
+  background-color: #ADC5DC;
   font-family: 'Varela Round', sans-serif;
   font-size: 1.3rem;
   text-decoration: none;
@@ -67,11 +72,11 @@
 }
 #nav_main_example ul li a:hover{
   /* orange  */
-  background-color: #86B8D9;
+  background-color: #8BA8C5;
 }
 #nav_main_example ul li a:focus{
   /* orange  */
-  background-color: #3B6CA0;
+  background-color: #8BA8C5;
 }
 
 /* ------------------------------ text field -------------------------------*/
@@ -112,10 +117,14 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  background-color: #ACD3EC;
+  background-color: #ADC5DC;
+  border-bottom-left-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+  box-shadow: 0 0.1rem 0.5rem 0.1rem #888888;
 }
 .nav_sample ul li{
   border-radius: 0.2rem;
+  padding: 0.1rem 0.5rem;
 }
 .nav_sample ul li a{
   padding: 0 0.8rem;
@@ -125,7 +134,7 @@
 
 .nav_sample ul li:hover{
   /* light blue */
-  background-color: #86B8D9;
+  background-color: #8BA8C5;
 }
 
 /* ------------------- Products Display ---------------------- */
@@ -213,7 +222,7 @@
   text-align: right;
   padding: 0.5rem 3rem;
   color: white;
-  background-color: #ACD3EC;
+  background-color: #ADC5DC;
 }
 
 .slogan{
@@ -240,7 +249,6 @@
   font-size: 0.8rem;
 }
 
-<<<<<<< HEAD
 /*  ------------------- Grid Structure : Home Page; ------------------- */
 #frame_home{
   display: flex;
@@ -307,7 +315,6 @@
 }
 
 .column_about {
-
   float: left;
   width: 66.66666%;
   margin-bottom: 10px;
@@ -320,10 +327,6 @@
 }
 
 
-
-=======
->>>>>>> master
-
 /* ------------------ Site Map ------------------------- */
 #site_map img{
   display: block;
@@ -332,4 +335,26 @@
   margin-left: auto;
   margin-right: auto;
   border: 0.1rem #3B6CA0 solid;
+}
+
+
+/* --------------------- w:1200 desktop --------------------- */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* --------------------- w:800 desktop --------------------- */
+@media only screen and (max-width: 800px) {
+ .product_details{
+   flex-direction: column;
+ }
+}
+
+/* --------------------- w:600 tablet--------------------- */
+@media only screen and (max-width: 600px) {
+
+}
+/* --------------------- w:300 phone --------------------- */
+@media only screen and (max-width: 300px) {
+
 }
