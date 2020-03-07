@@ -87,6 +87,7 @@
 }
 
 .all_schedule{
+  justify-content: center;
   display: flex;
   flex-direction: row;
   margin: 0 auto;
@@ -191,9 +192,6 @@
 
 /* --------------------- w:600 tablet--------------------- */
 @media only screen and (max-width: 600px) {
-
-
-
  .content_blurb {
   margin: 1.5rem 1.5rem;
  }
